@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "com.interview.carrecords.service";
+option java_package = "com.interview.proto.carrecords.service";
 
 message RecordSaveRequest {
   string first_name = 1;
