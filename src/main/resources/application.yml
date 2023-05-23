@@ -62,13 +62,13 @@ management:
       enabled: true
     os:
       enabled: true
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    leaseRenewalIntervalInSeconds: 10
-    metadataMap:
-      instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}:${random.value}}
+#eureka:
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    leaseRenewalIntervalInSeconds: 10
+#    metadataMap:
+#      instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}:${random.value}}
