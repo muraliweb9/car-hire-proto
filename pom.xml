@@ -140,8 +140,8 @@
                 <!-- Will generate a target/classes/git.properties with information
                 available at the /actuator/info actuator end point
                 -->
-                <groupId>pl.project13.maven</groupId>
-                <artifactId>git-commit-id-plugin</artifactId>
+                <groupId>io.github.git-commit-id</groupId>
+                <artifactId>git-commit-id-maven-plugin</artifactId>
                 <executions>
                     <execution>
                         <id>get-the-git-infos</id>
